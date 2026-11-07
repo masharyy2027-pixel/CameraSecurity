@@ -1,3 +1,4 @@
+
 [app]
 
 title = Camera Security
@@ -9,7 +10,7 @@ source.include_exts = py,png,jpg,jpeg,mp3,xml,kv
 
 version = 1.0.0
 
-requirements = python3,kivy==2.3.0,camera4kivy,gestures4kivy,numpy,opencv,pyjnius
+requirements = python3,kivy==2.3.0,camera4kivy,gestures4kivy,opencv
 
 orientation = portrait
 fullscreen = 0
@@ -24,8 +25,9 @@ android.archs = arm64-v8a
 android.allow_backup = True
 android.enable_androidx = True
 
+p4a.hook = camerax_provider/gradle_options.py
+
 [buildozer]
 
 log_level = 2
 warn_on_root = 1
-
