@@ -1,4 +1,3 @@
-
 [app]
 
 title = Camera Security
@@ -6,11 +5,11 @@ package.name = camerasecurity
 package.domain = com.hussainalbeyati
 
 source.dir = .
-source.include_exts = py,png,jpg,jpeg,mp3,xml,kv
+source.include_exts = py,png,jpg,jpeg,mp3,xml,kv,txt
 
 version = 1.0.0
 
-requirements = python3,kivy==2.3.0,camera4kivy,gestures4kivy,opencv
+requirements = python3,kivy==2.3.0,camera4kivy,gestures4kivy,numpy,opencv,pyjnius
 
 orientation = portrait
 fullscreen = 0
@@ -24,6 +23,7 @@ android.archs = arm64-v8a
 
 android.allow_backup = True
 android.enable_androidx = True
+android.accept_sdk_license = True
 
 p4a.hook = camerax_provider/gradle_options.py
 
