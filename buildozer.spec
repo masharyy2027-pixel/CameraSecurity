@@ -10,7 +10,7 @@ source.include_exts = py,png,jpg,jpeg,mp3,xml,kv,txt
 
 version = 1.0.0
 
-requirements = python3,kivy==2.3.0,camera4kivy,gestures4kivy,numpy,opencv,pyjnius
+requirements = python3==3.12.10,hostpython3==3.12.10,kivy==2.3.0,camera4kivy,gestures4kivy,numpy,opencv,pyjnius
 
 orientation = portrait
 fullscreen = 0
