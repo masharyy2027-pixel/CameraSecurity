@@ -19,7 +19,7 @@ icon.filename = %(source.dir)s/icon.png
 
 android.permissions = CAMERA,INTERNET
 android.api = 33
-android.minapi = 24
+android.minapi = 26
 android.ndk = 25b
 android.archs = arm64-v8a
 
