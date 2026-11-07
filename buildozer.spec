@@ -1,4 +1,3 @@
-
 [app]
 
 title = Camera Security
@@ -24,8 +23,6 @@ android.archs = arm64-v8a
 
 android.allow_backup = True
 android.enable_androidx = True
-
-p4a.hook = camerax_provider/gradle_options.py
 
 [buildozer]
 
